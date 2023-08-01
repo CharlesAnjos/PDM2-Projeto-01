@@ -65,6 +65,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="Adicionar"
+        android:onClick="criarLista"
         app:layout_constraintEnd_toStartOf="@+id/bt_gerar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/til_nota" />
@@ -75,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Gerar"
+        android:onClick="gerarJson"
         app:layout_constraintEnd_toStartOf="@+id/bt_consumir"
         app:layout_constraintStart_toEndOf="@+id/bt_adicionar"
         app:layout_constraintTop_toBottomOf="@+id/til_nota" />
@@ -86,6 +88,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:text="Consumir"
+        android:onClick="abrirTela"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bt_gerar"
         app:layout_constraintTop_toBottomOf="@+id/til_nota" />

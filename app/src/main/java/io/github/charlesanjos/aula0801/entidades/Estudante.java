@@ -36,4 +36,9 @@ public class Estudante {
     public void setNota(int nota) {
         this.nota = nota;
     }
+
+    @Override
+    public String toString() {
+        return nome + "\n" + disciplina + "\n" + nota;
+    }
 }
